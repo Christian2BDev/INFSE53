@@ -1,3 +1,7 @@
 
 COproj/Library/PackageCache/com.unity.burst@1.8.12/.Runtime/libburst-llvm-16.dylib
 COproj/Library/PackageCache/com.meta.xr.simulator@60.0.0/MetaXRSimulator/.synth_env_server/synth_env_server_Data/sharedassets3.assets
+COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar
+COproj/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+Coproj/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+Coproj/Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638429167900000000
-    m_Hash: 1256958576
+      ticks: 638443384100000000
+    m_Hash: 682200580
   m_LockFileStatus:
     m_FilePath: /Users/Christian/Documents/GitHub/INFSE53/COproj/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638429167900000000
-    m_Hash: 288058655
+      ticks: 638443384100000000
+    m_Hash: 3956868789
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -46,9 +46,11 @@ m_ResolvedPackages:
     all:
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     compatible:
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     recommended: 
     deprecated: []
   dependencies:
@@ -521,6 +523,105 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.terrain-tools@5.0.4
+  testable: 0
+  isDirectDependency: 1
+  version: 5.0.4
+  source: 1
+  resolvedPath: /Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PackageCache/com.unity.terrain-tools@5.0.4
+  assetPath: Packages/com.unity.terrain-tools
+  name: com.unity.terrain-tools
+  displayName: Terrain Tools
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: "The Terrain Tools package adds additional Terrain sculpting brushes
+    and tools to Unity. This add-on toolset is suitable if you require more control
+    over the appearance of your Terrain, and want to streamline Terrain workflows.
+    It\u2019s also useful when you want to make more complex-looking Terrain, or
+    author Terrain Texture data in external digital content creation tools."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 2.0.0-preview
+    - 2.0.1-preview
+    - 2.0.2-preview
+    - 3.0.0-preview
+    - 3.0.1-preview
+    - 3.0.2-preview.2
+    - 3.0.2-preview.3
+    - 4.0.0-pre.2
+    - 4.0.0
+    - 4.0.3
+    - 4.0.5
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.1.0-pre.1
+    - 5.1.0
+    - 5.1.1
+    compatible:
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    recommended: 5.0.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - Terrain
+  - Brush
+  - Toolbox
+  - Mask
+  - Filter
+  - Noise
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638346103880000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.terrain-tools@5.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/TerrainTools.git
+    revision: 3d80e82822fd08d11061c97db2cc7237293af6b5
+    path: 
+  unityLifecycle:
+    version: 5.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
@@ -641,6 +742,7 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.0.7
+    - 3.0.8
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -649,11 +751,13 @@ m_ResolvedPackages:
     - 3.2.0-pre.6
     - 3.2.0-pre.7
     - 3.2.0-pre.8
+    - 3.2.0-pre.9
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.0.7
+    - 3.0.8
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -662,9 +766,10 @@ m_ResolvedPackages:
     - 3.2.0-pre.6
     - 3.2.0-pre.7
     - 3.2.0-pre.8
+    - 3.2.0-pre.9
     - 4.0.0-pre.1
     - 4.0.0-pre.2
-    recommended: 3.0.7
+    recommended: 3.0.8
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -1140,10 +1245,12 @@ m_ResolvedPackages:
     - 4.1.2
     - 4.2.0-exp-env-depth.1
     - 4.2.0-exp-env-depth.2
+    - 4.2.0
     compatible:
     - 4.1.2
     - 4.2.0-exp-env-depth.1
     - 4.2.0-exp-env-depth.2
+    - 4.2.0
     recommended: 4.1.2
     deprecated: []
   dependencies:
@@ -4578,8 +4685,10 @@ m_ResolvedPackages:
   versions:
     all:
     - 60.0.0
+    - 62.0.0
     compatible:
     - 60.0.0
+    - 62.0.0
     recommended: 
     deprecated: []
   dependencies:
@@ -4735,9 +4844,11 @@ m_ResolvedPackages:
     all:
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     compatible:
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     recommended: 
     deprecated: []
   dependencies: []
@@ -4797,8 +4908,10 @@ m_ResolvedPackages:
   versions:
     all:
     - 60.0.0
+    - 62.0.0
     compatible:
     - 60.0.0
+    - 62.0.0
     recommended: 
     deprecated: []
   dependencies:
@@ -4865,11 +4978,13 @@ m_ResolvedPackages:
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     compatible:
     - 56.0.0-preview
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     recommended: 
     deprecated: []
   dependencies:
@@ -4944,11 +5059,13 @@ m_ResolvedPackages:
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     compatible:
     - 56.0.0-preview
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     recommended: 
     deprecated: []
   dependencies:
@@ -5029,11 +5146,13 @@ m_ResolvedPackages:
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     compatible:
     - 56.0.0-preview
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     recommended: 
     deprecated: []
   dependencies:
@@ -5370,10 +5489,12 @@ m_ResolvedPackages:
     - 57.0.0
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     compatible:
     - 57.0.0
     - 59.0.0
     - 60.0.0
+    - 62.0.0
     recommended: 
     deprecated: []
   dependencies: []

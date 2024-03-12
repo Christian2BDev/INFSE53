@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-65
+11-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:20-62
+12
+13    <uses-feature
+13-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-111
+14        android:name="android.hardware.vr.headtracking"
+14-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:17-64
+15        android:required="true"
+15-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:85-108
+16        android:version="1" />
+16-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:65-84
+17    <uses-feature android:glEsVersion="0x00030000" />
+17-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-52
+17-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:17-49
+18    <uses-feature
+18-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-88
+19        android:name="android.hardware.touchscreen"
+19-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-60
+20        android:required="false" />
+20-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:61-85
+21    <uses-feature
+21-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-99
+22        android:name="android.hardware.touchscreen.multitouch"
+22-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-71
+23        android:required="false" />
+23-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:72-96
+24    <uses-feature
+24-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-108
+25        android:name="android.hardware.touchscreen.multitouch.distinct"
+25-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:17-80
+26        android:required="false" />
+26-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:81-105
+27
+28    <application
+28-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-34:17
+29        android:allowBackup="false"
+29-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:81-108
+30        android:extractNativeLibs="true"
+30-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:109-141
+31        android:icon="@mipmap/app_icon"
+31-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:49-80
+32        android:label="@string/app_name"
+32-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:16-48
+33        android:networkSecurityConfig="@xml/network_sec_config" >
+33-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:142-197
+34        <meta-data
+34-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:5-89
+35            android:name="unityplayer.SkipPermissionsDialog"
+35-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:16-64
+36            android:value="false" />
+36-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:65-86
+37        <meta-data
+37-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-97
+38            android:name="com.samsung.android.vr.application.mode"
+38-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-70
+39            android:value="vr_only" />
+39-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:71-94
+40        <meta-data
+40-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-86
+41            android:name="com.oculus.ossplash.background"
+41-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-61
+42            android:value="black" />
+42-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:62-83
+43        <meta-data
+43-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-84
+44            android:name="com.oculus.supportedDevices"
+44-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-58
+45            android:value="quest2" />
+45-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:59-81
+46        <meta-data
+46-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-69
+47            android:name="unity.splash-mode"
+47-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-48
+48            android:value="0" />
+48-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:49-66
+49        <meta-data
+49-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-74
+50            android:name="unity.splash-enable"
+50-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-50
+51            android:value="True" />
+51-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:51-71
+52        <meta-data
+52-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-78
+53            android:name="unity.launch-fullscreen"
+53-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-54
+54            android:value="True" />
+54-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+55        <meta-data
+55-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-81
+56            android:name="notch.config"
+56-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-43
+57            android:value="portrait|landscape" />
+57-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:44-78
+58        <meta-data
+58-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-84
+59            android:name="unity.auto-report-fully-drawn"
+59-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-60
+60            android:value="true" />
+60-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:61-81
+61
+62        <activity
+62-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-27:16
+63            android:name="com.unity3d.player.UnityPlayerActivity"
+63-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:222-275
+64            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+64-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:80-189
+65            android:excludeFromRecents="true"
+65-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:276-309
+66            android:exported="true"
+66-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:310-333
+67            android:hardwareAccelerated="false"
+67-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:407-442
+68            android:launchMode="singleTask"
+68-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:190-221
+69            android:resizeableActivity="false"
+69-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:372-406
+70            android:screenOrientation="landscape"
+70-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:334-371
+71            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+71-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:15-79
+72            <intent-filter>
+72-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:7-24:23
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:9-69
+73-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:19-66
+74                <category android:name="com.oculus.intent.category.VR" />
+74-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:9-66
+74-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:19-63
+75
+76                <action android:name="android.intent.action.MAIN" />
+76-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:9-61
+76-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:17-58
+77            </intent-filter>
+78
+79            <meta-data
+79-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:7-81
+80                android:name="com.oculus.vr.focusaware"
+80-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:18-57
+81                android:value="true" />
+81-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:58-78
+82            <meta-data
+82-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:7-70
+83                android:name="notch_support"
+83-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:18-46
+84                android:value="true" />
+84-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:47-67
+85        </activity>
+86
+87        <meta-data
+87-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:5-90
+88            android:name="com.unity.xr.oculus.LowOverheadMode"
+88-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:16-66
+89            android:value="true" />
+89-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:67-87
+90        <meta-data
+90-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:5-88
+91            android:name="com.unity.xr.oculus.LateLatching"
+91-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:16-63
+92            android:value="false" />
+92-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:64-85
+93        <meta-data
+93-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:5-93
+94            android:name="com.unity.xr.oculus.LateLatchingDebug"
+94-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:16-68
+95            android:value="false" />
+95-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:69-90
+96        <meta-data
+96-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:5-74
+97            android:name="com.oculus.ossplash"
+97-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:16-50
+98            android:value="true" />
+98-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:51-71
+99        <meta-data
+99-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:5-79
+100            android:name="com.oculus.ossplash.type"
+100-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:16-55
+101            android:value="mono" />
+101-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:56-76
+102        <meta-data
+102-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:5-83
+103            android:name="com.oculus.ossplash.colorspace"
+103-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:16-61
+104            android:value="P3" />
+104-->/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:62-80
+105    </application>
+106
+107</manifest>

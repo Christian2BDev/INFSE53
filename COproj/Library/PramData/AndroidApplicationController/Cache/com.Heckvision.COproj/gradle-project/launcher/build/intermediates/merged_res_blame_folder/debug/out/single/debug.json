@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/build/intermediates/merged_res/debug/mipmap-mdpi_app_icon.png.flat",
+        "source": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/src/main/res/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/build/intermediates/merged_res/debug/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
+    },
+    {
+        "merged": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/build/intermediates/merged_res/debug/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "/Users/Christian/Documents/GitHub/INFSE53/COproj/Library/PramData/AndroidApplicationController/Cache/com.Heckvision.COproj/gradle-project/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
+    }
+]
