@@ -118,7 +118,7 @@ public class gun : MonoBehaviour
                 {
 
                 hitObj.GetComponent<Zombie>().DamageEnemy(Damage);
-                Destroy(hitObj);
+                
                 }
 
             }

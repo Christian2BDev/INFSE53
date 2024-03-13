@@ -451,6 +451,7 @@
 "Assets/Scenes/Game/scripts/OLD/OLD_MOVEMENT.cs"
 "Assets/Scenes/Game/scripts/PasiveAudioManager.cs"
 "Assets/Scenes/Game/scripts/Pause.cs"
+"Assets/score.cs"
 "Assets/spawner.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

@@ -26,21 +26,23 @@ public class continue_movement : MonoBehaviour
 
     void FixedUpdate()
     {
-       
-
-        if (checkpoint <= rotatePoints.Count - 1 && PlayerPrefs.GetInt("Level")!=0)
+        if (PlayerPrefs.GetInt("Level") != 0)
         {
-            if (rotatePoints[checkpoint] == new Vector3(0, -1, 0))
+            if (checkpoint <= rotatePoints.Count - 1)
             {
-                checkpoint++;
-            }
-            else {
-                MoveAndLook(rotatePoints[checkpoint]);
-            }
+                if (rotatePoints[checkpoint] == new Vector3(0, -1, 0))
+                {
+                    checkpoint++;
+                }
+                else
+                {
+                    MoveAndLook(rotatePoints[checkpoint]);
+                }
 
 
+            }
         }
-        else
+        else if(PlayerPrefs.GetInt("Level") == 0)
         {
             transform.position += transform.forward * speed * Time.deltaTime;
 

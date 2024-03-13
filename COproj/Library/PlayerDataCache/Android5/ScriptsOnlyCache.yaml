@@ -6,11 +6,13 @@ ScriptsOnlyBuild:
     - ControlHelp
     - Interactable2B
     - Mapgenerator
+    - PasiveAudioManager
     - Pause
     - Zombie
     - continue_movement
     - gun
     - health
+    - killFallen
     - spawner
     Meta.XR.Audio:
     - MetaXRAudioSettings
@@ -174,15 +176,35 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TerrainTools.Editor.dll:
     - UnityEditor.TerrainTools.BillowNoise
+    - UnityEditor.TerrainTools.BridgeTool
+    - UnityEditor.TerrainTools.CloneBrushTool
+    - UnityEditor.TerrainTools.ContrastTool
+    - UnityEditor.TerrainTools.DetailScatterTool
     - UnityEditor.TerrainTools.FbmFractalType
+    - UnityEditor.TerrainTools.HydroErosionTool
     - UnityEditor.TerrainTools.NoiseBlitShaderGenerator
     - UnityEditor.TerrainTools.NoiseFillShaderGenerator
+    - UnityEditor.TerrainTools.NoiseHeightTool
     - UnityEditor.TerrainTools.NoneFractalType
+    - UnityEditor.TerrainTools.PaintHeightTool
+    - UnityEditor.TerrainTools.PaintHolesTool
+    - UnityEditor.TerrainTools.PaintTextureTool
     - UnityEditor.TerrainTools.PerlinNoise
+    - UnityEditor.TerrainTools.PinchHeightTool
     - UnityEditor.TerrainTools.RidgeNoise
+    - UnityEditor.TerrainTools.SetHeightTool
+    - UnityEditor.TerrainTools.SharpenPeaksTool
+    - UnityEditor.TerrainTools.SlopeFlattenTool
+    - UnityEditor.TerrainTools.SmoothHeightTool
+    - UnityEditor.TerrainTools.SmudgeHeightTool
+    - UnityEditor.TerrainTools.StampTool
     - UnityEditor.TerrainTools.StrataFractalType
+    - UnityEditor.TerrainTools.TerraceErosion
+    - UnityEditor.TerrainTools.ThermalErosionTool
+    - UnityEditor.TerrainTools.TwistHeightTool
     - UnityEditor.TerrainTools.ValueNoise
     - UnityEditor.TerrainTools.VoronoiNoise
+    - UnityEditor.TerrainTools.WindErosionTool
     Unity.TextMeshPro:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
@@ -206,10 +228,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -449,31 +469,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 25702}
     - Class: 114
-      Script: {instanceID: 26620}
+      Script: {instanceID: 25902}
     - Class: 114
-      Script: {instanceID: 27080}
+      Script: {instanceID: 26552}
     - Class: 114
-      Script: {instanceID: 27624}
+      Script: {instanceID: 26624}
     - Class: 114
-      Script: {instanceID: 27710}
+      Script: {instanceID: 27084}
     - Class: 114
-      Script: {instanceID: 27742}
+      Script: {instanceID: 27628}
     - Class: 114
-      Script: {instanceID: 28160}
+      Script: {instanceID: 27714}
     - Class: 114
-      Script: {instanceID: 28292}
+      Script: {instanceID: 27746}
     - Class: 114
-      Script: {instanceID: 28832}
+      Script: {instanceID: 28164}
     - Class: 114
-      Script: {instanceID: 29140}
+      Script: {instanceID: 28296}
     - Class: 114
-      Script: {instanceID: 29970}
+      Script: {instanceID: 28836}
     - Class: 114
-      Script: {instanceID: 30072}
+      Script: {instanceID: 29144}
     - Class: 114
-      Script: {instanceID: 30368}
+      Script: {instanceID: 29974}
     - Class: 114
-      Script: {instanceID: 30614}
+      Script: {instanceID: 30076}
+    - Class: 114
+      Script: {instanceID: 30372}
+    - Class: 114
+      Script: {instanceID: 30618}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -642,63 +666,65 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 25702}
     - Class: 114
-      Script: {instanceID: 26054}
+      Script: {instanceID: 26056}
     - Class: 114
-      Script: {instanceID: 26128}
+      Script: {instanceID: 26130}
     - Class: 114
-      Script: {instanceID: 26450}
+      Script: {instanceID: 26452}
     - Class: 114
-      Script: {instanceID: 26554}
+      Script: {instanceID: 26552}
     - Class: 114
-      Script: {instanceID: 26592}
+      Script: {instanceID: 26558}
     - Class: 114
-      Script: {instanceID: 26620}
+      Script: {instanceID: 26596}
     - Class: 114
-      Script: {instanceID: 26844}
+      Script: {instanceID: 26624}
     - Class: 114
-      Script: {instanceID: 26928}
+      Script: {instanceID: 26848}
     - Class: 114
-      Script: {instanceID: 27080}
+      Script: {instanceID: 26932}
     - Class: 114
-      Script: {instanceID: 27646}
+      Script: {instanceID: 27084}
     - Class: 114
-      Script: {instanceID: 27710}
+      Script: {instanceID: 27650}
     - Class: 114
-      Script: {instanceID: 27742}
+      Script: {instanceID: 27714}
     - Class: 114
-      Script: {instanceID: 27930}
+      Script: {instanceID: 27746}
     - Class: 114
-      Script: {instanceID: 28160}
+      Script: {instanceID: 27934}
     - Class: 114
-      Script: {instanceID: 28224}
+      Script: {instanceID: 28164}
     - Class: 114
-      Script: {instanceID: 28562}
+      Script: {instanceID: 28228}
     - Class: 114
-      Script: {instanceID: 28728}
+      Script: {instanceID: 28566}
     - Class: 114
-      Script: {instanceID: 28832}
+      Script: {instanceID: 28732}
     - Class: 114
-      Script: {instanceID: 28846}
+      Script: {instanceID: 28836}
     - Class: 114
-      Script: {instanceID: 28864}
+      Script: {instanceID: 28850}
     - Class: 114
-      Script: {instanceID: 28904}
+      Script: {instanceID: 28868}
     - Class: 114
-      Script: {instanceID: 28938}
+      Script: {instanceID: 28908}
     - Class: 114
-      Script: {instanceID: 29088}
+      Script: {instanceID: 28942}
     - Class: 114
-      Script: {instanceID: 29250}
+      Script: {instanceID: 29092}
     - Class: 114
-      Script: {instanceID: 29536}
+      Script: {instanceID: 29254}
     - Class: 114
-      Script: {instanceID: 30072}
+      Script: {instanceID: 29540}
     - Class: 114
-      Script: {instanceID: 30496}
+      Script: {instanceID: 30076}
     - Class: 114
-      Script: {instanceID: 30558}
+      Script: {instanceID: 30500}
     - Class: 114
-      Script: {instanceID: 30614}
+      Script: {instanceID: 30562}
+    - Class: 114
+      Script: {instanceID: 30618}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3468,6 +3494,12 @@ ScriptsOnlyBuild:
     className: SnapInteractable
   - hash:
       serializedVersion: 2
+      Hash: 1faf33b86ac8375bec3c5bdd64c7d1f3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: killFallen
+  - hash:
+      serializedVersion: 2
       Hash: b810dfd26c061161a980f9a956f9a116
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -3640,6 +3672,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction
     namespaceName: Oculus.Interaction.UnityCanvas
     className: CanvasMeshRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: ccda7c188027f266d6b61c23e3f2a149
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PasiveAudioManager
   - hash:
       serializedVersion: 2
       Hash: 5dc51b0140815ee83ba613dce32f5b12
@@ -4890,7 +4928,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
-      Hash: fe5caaf1eb49d0639c891aed2e7d8066
+      Hash: 197873bd2d589a05b035271847bd6a16
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Mapgenerator
@@ -4944,7 +4982,7 @@ ScriptsOnlyBuild:
     className: WitUIInteractionHandler
   - hash:
       serializedVersion: 2
-      Hash: f9843a7b4758b90c31c89bc3a5ac1325
+      Hash: 72d2f12aacfb6cef26fa9c17f5417fe7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Audio2B

@@ -452,6 +452,7 @@ MonoBehaviour:
   Damage: 10
   MovingSpeed: 5
   sightDistance: 100
+  points: 10
 --- !u!65 &3132557906406291094
 BoxCollider:
   m_ObjectHideFlags: 0

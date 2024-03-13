@@ -1,15 +1,12 @@
 ﻿<Properties StartupConfiguration="{C41F5A3B-9F2D-DDF2-5402-DF6975702710}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/killFallen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/gun.cs">
     <Files>
-      <File FileName="Assets/Scenes/Game/scripts/Mapgenerator.cs" Line="62" Column="27" />
-      <File FileName="Assets/spawner.cs" Line="14" Column="17" />
-      <File FileName="Assets/Scenes/Game/scripts/continue_movement.cs" Line="45" Column="78" />
-      <File FileName="Assets/killFallen.cs" Line="9" Column="22" />
+      <File FileName="Assets/gun.cs" Line="121" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8e5f895f-4261-493c-8c56-c086826fd3ea" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8d4b7207-e88b-4da3-bb7b-d31ab4b2c990" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

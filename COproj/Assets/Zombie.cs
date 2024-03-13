@@ -9,6 +9,7 @@ public class Zombie : MonoBehaviour
     public int Damage;
     public int MovingSpeed;
     public int sightDistance;
+    public int points;
     Rigidbody rb;
     // Start is called before the first frame update
     void Start()
@@ -32,7 +33,13 @@ public class Zombie : MonoBehaviour
         Health = Health - DamageAmount;
         if (Health <= 0)
         {
-            Destroy(this);
+            die();
         }
+    }
+
+    void die() {
+        GameObject.Find("GameController").GetComponent<score>().Addpoints(points);
+        Destroy(gameObject);
+
     }
 }

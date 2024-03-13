@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class health : MonoBehaviour
 {
     public Slider healthslider;
     public int healthammount;
     public int maxHealth;
-    
+    public GameObject gameController;
 
      void Start()
     {
@@ -27,6 +28,26 @@ public class health : MonoBehaviour
     }
 
     public void Damage(int DamageAmount) {
-        healthslider.value = healthslider.value - DamageAmount;
+        healthammount = healthammount - DamageAmount;
+        healthslider.value = healthammount;
+        if (healthammount <=0)
+        {
+            highscore();
+            SceneManager.LoadScene("GameOver");
+        }
+    }
+
+    void highscore() {
+        if (PlayerPrefs.HasKey("highscore")) 
+        {
+            if (gameController.GetComponent<score>().points > PlayerPrefs.GetInt("highscore"))
+            {
+                PlayerPrefs.SetInt("highscore", gameController.GetComponent<score>().points);
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("highscore", gameController.GetComponent<score>().points);
+        }
     }
 }
