@@ -202,9 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0.0141509175, b: 0.0141509175, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 4
 --- !u!136 &2425463
 CapsuleCollider:
@@ -461,9 +461,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &21842765
 BoxCollider:
@@ -762,9 +762,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 2100000, guid: 551b81ae6521548b38bd017cf0bbae6e, type: 2}
+  hover: {fileID: 2100000, guid: a435a1220874648b9a2f49bcffb9b8b6, type: 2}
+  pressed: {fileID: 2100000, guid: f68cde3e5bb6d4b70956084fa7ff5ed6, type: 2}
   f: 2
 --- !u!65 &53934558
 BoxCollider:
@@ -1121,9 +1121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 12
 --- !u!65 &94551772
 BoxCollider:
@@ -1893,9 +1893,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 3
 --- !u!65 &214559235
 BoxCollider:
@@ -2466,9 +2466,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &281573947
 BoxCollider:
@@ -2843,9 +2843,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 11
 --- !u!65 &333749782
 BoxCollider:
@@ -4326,9 +4326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &516940656
 BoxCollider:
@@ -5907,9 +5907,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &601767136
 BoxCollider:
@@ -6063,9 +6063,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &614669990
 BoxCollider:
@@ -7418,7 +7418,7 @@ MonoBehaviour:
   virtualGreenScreenDepthTolerance: 0.2
   mrcActivationMode: 0
   launchMultimodalHandsControllersOnStartup: 0
-  isInsightPassthroughEnabled: 0
+  isInsightPassthroughEnabled: 1
   requestBodyTrackingPermissionOnStartup: 0
   requestFaceTrackingPermissionOnStartup: 0
   requestEyeTrackingPermissionOnStartup: 0
@@ -7510,6 +7510,117 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1470898865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &735117036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 735117039}
+  - component: {fileID: 735117038}
+  - component: {fileID: 735117037}
+  m_Layer: 0
+  m_Name: '[BuildingBlock] Passthrough'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &735117037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735117036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 555725d48e9051a4bb6b8d45178c2fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectionSurfaceType: 0
+  overlayType: 2
+  compositionDepth: 0
+  hidden: 0
+  overridePerLayerColorScaleAndOffset: 0
+  colorScale: {x: 1, y: 1, z: 1, w: 1}
+  colorOffset: {x: 0, y: 0, z: 0, w: 0}
+  colorMapEditorType_: 0
+  colorMapEditorGradient:
+    serializedVersion: 2
+    key0: {r: 0.7559513, g: 0.9245283, b: 0.72828406, a: 1}
+    key1: {r: 0.3726415, g: 0.98819894, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 64764
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorMapEditorContrast: 0.01
+  colorMapEditorBrightness: 0
+  colorMapEditorPosterize: 0
+  colorMapEditorSaturation: 0
+  _colorLutSourceTexture: {fileID: 0}
+  _colorLutTargetTexture: {fileID: 0}
+  _lutWeight: 1
+  _flipLutY: 1
+  serializedSurfaceGeometry: []
+  textureOpacity_: 0
+  edgeRenderingEnabled_: 0
+  edgeColor_: {r: 1, g: 1, b: 1, a: 1}
+  colorMapType: 0
+--- !u!114 &735117038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735117036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockId: f0540b20-dfd6-420e-b20d-c270f88dc77e
+  instanceId: 5662361e-e2a5-4a58-adb5-9a96b019e057
+  version: 1
+--- !u!4 &735117039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735117036}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &746178925
 GameObject:
@@ -8416,9 +8527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &808119946
 BoxCollider:
@@ -8824,9 +8935,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &823808486
 BoxCollider:
@@ -10870,9 +10981,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &1042955770
 BoxCollider:
@@ -11682,9 +11793,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0.0141509175, b: 0.0141509175, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 4
 --- !u!136 &1124064456
 CapsuleCollider:
@@ -13011,9 +13122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 3
 --- !u!65 &1226753599
 BoxCollider:
@@ -15271,9 +15382,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 9
 --- !u!65 &1464289242
 BoxCollider:
@@ -15720,9 +15831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 10
 --- !u!65 &1518819998
 BoxCollider:
@@ -18030,9 +18141,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &1757139392
 BoxCollider:
@@ -18858,6 +18969,7 @@ GameObject:
   - component: {fileID: 1821802564}
   - component: {fileID: 1821802563}
   - component: {fileID: 1821802565}
+  - component: {fileID: 1821802566}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -18990,6 +19102,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 3006a9209388a458aa3141ff54a73f6c, type: 2}
   mixerGroups: []
+--- !u!114 &1821802566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821802562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac894a5dae70243ab92cf3f1a66933d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passthrough: {fileID: 735117036}
 --- !u!1 &1822050208
 GameObject:
   m_ObjectHideFlags: 0
@@ -20000,9 +20125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 1
 --- !u!65 &1907742140
 BoxCollider:
@@ -20694,9 +20819,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 0}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 13
 --- !u!65 &1969699013
 BoxCollider:
@@ -23177,9 +23302,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121ae337b343644dabfd38b57e3bbdf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {r: 0, g: 0, b: 0, a: 0}
-  hover: {r: 1, g: 1, b: 1, a: 0}
-  pressed: {r: 1, g: 0, b: 0, a: 0}
+  normal: {fileID: 2100000, guid: 551b81ae6521548b38bd017cf0bbae6e, type: 2}
+  hover: {fileID: 0}
+  pressed: {fileID: 0}
   f: 0
 --- !u!1 &8113107227402165549
 GameObject:
@@ -23226,3 +23351,4 @@ SceneRoots:
   - {fileID: 903325522}
   - {fileID: 1821802564}
   - {fileID: 920301007}
+  - {fileID: 735117039}

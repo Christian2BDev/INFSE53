@@ -16,7 +16,10 @@ public class Mapgenerator : MonoBehaviour
     public Coroutine c;
     public Coroutine c2;
 
-    // Start is called before the first frame update
+    // als de game start plaats deze methode x hoeveelheid onderdelen in de wereld gebasserd op het level dat je speelt
+    // en op het eind plaats het de leger basis map
+
+    // maar als het endles is start het een loop om continu een niewe onderdeel te plaatsen voor je en 1 oude weg te halen 
     void Awake()
     {
         tempInt = PlayerPrefs.GetInt("Level");
@@ -50,13 +53,14 @@ public class Mapgenerator : MonoBehaviour
         
     }
 
+    //cooldown zorgt dat het niet gelijkt begint met weghalen van platforms, na 2 interfalls begint hij pas
     IEnumerator rere() {
 
         yield return new WaitForSeconds(inter * interval*2);
         c = StartCoroutine(re());
     }
 
-
+    //dit is een loop dat zorgt dat elke interval de renew methode word aangeroepen
     IEnumerator re()
     {
         StopCoroutine(c2);
@@ -65,8 +69,9 @@ public class Mapgenerator : MonoBehaviour
         c = StartCoroutine(re());
     }
 
+    // deze methode vind alle maps, en verwijderd vervolgens de oudste. en plaats weer een nieuwe vooraan.
+    // en spawned ook nieuwe zombies daar op
     void Renew() {
-        Debug.Log("lol");
         aliveMap = GameObject.FindGameObjectsWithTag("map_part");
         Destroy(aliveMap[0]);
         Instantiate(Map, new Vector3(-100, -1, pos * 100), Quaternion.Euler(0, 0, 0));

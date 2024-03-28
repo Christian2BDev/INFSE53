@@ -8,6 +8,8 @@ public class PasiveAudioManager : MonoBehaviour
     public AudioMixer mixer;
     public AudioMixerGroup[] mixerGroups;
     // Start is called before the first frame update
+
+    // zorgt ervoor dat het opgeslagen audio nivea weer word ingesteld zodra de game opstartd
     void Start()
     {
         mixerGroups = mixer.FindMatchingGroups("");
@@ -23,9 +25,4 @@ public class PasiveAudioManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

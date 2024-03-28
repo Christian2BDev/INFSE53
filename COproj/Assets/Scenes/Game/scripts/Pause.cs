@@ -10,13 +10,15 @@ public class Pause : MonoBehaviour
     public GameObject aim2;
     public bool paused;
     public GameObject passthrough;
-    // Start is called before the first frame update
+
+    //Bug fix
     void Start()
     {
         Time.timeScale = 1;
     }
 
-    // Update is called once per frame
+    // zodra er op de pauze knop word ge drukt word de pause functie aangeroepen
+    // en nogmaals netzoals het pasthrought script zelf, word hier de passtrough getoggled. vooor in de game zelf
     void Update()
     {
         if (OVRInput.GetDown(OVRInput.Button.Start) || Input.GetKeyDown(KeyCode.B))
@@ -41,7 +43,7 @@ public class Pause : MonoBehaviour
 
     }
 
-
+    // deze methode pauzeerd de game. activeerd het pauze menu en zet de tijd stil
     public void togglePause()
     {
         paused = !paused;

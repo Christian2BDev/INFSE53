@@ -2432,6 +2432,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Display
 
+	//Start Registrations for type : UnityEngine.DynamicGI
+
+		//System.Void UnityEngine.DynamicGI::UpdateEnvironment()
+		void Register_UnityEngine_DynamicGI_UpdateEnvironment();
+		Register_UnityEngine_DynamicGI_UpdateEnvironment();
+
+	//End Registrations for type : UnityEngine.DynamicGI
+
 	//Start Registrations for type : UnityEngine.Event
 
 		//System.Boolean UnityEngine.Event::PopEvent(UnityEngine.Event)

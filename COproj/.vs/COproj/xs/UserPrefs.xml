@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{C41F5A3B-9F2D-DDF2-5402-DF6975702710}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/gun.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Game/scripts/Button2B.cs">
     <Files>
-      <File FileName="Assets/gun.cs" Line="121" Column="17" />
+      <File FileName="Assets/Scenes/Game/scripts/Interactable2B.cs" Line="173" Column="119" />
+      <File FileName="Assets/Scenes/Game/scripts/Button2B.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8d4b7207-e88b-4da3-bb7b-d31ab4b2c990" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="98ba887a-a8ce-4849-8fdf-517fa5ba6075" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
